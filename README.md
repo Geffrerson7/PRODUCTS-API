@@ -1,6 +1,6 @@
 # API PRODUCTS
 
-REST API with typescript, Express and Prisma.
+REST API with TypeScript, Express and Prisma.
 
 ## Environment Variables
 
@@ -21,7 +21,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Proyecto-Unidad-7
+  cd PRODUCTS-API
 ```
 
 Install dependencies
