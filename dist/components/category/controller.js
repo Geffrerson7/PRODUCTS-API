@@ -10,7 +10,7 @@ const store = async (req, res) => {
     try {
         const data = req.body;
         const categories = await datasource_1.default.category.create({ data });
-        return (0, responses_1.success)({ res, status: 201, data: categories, message: "Category created" });
+        return (0, responses_1.success)({ res, status: 201, message: "Category created" });
     }
     catch (error) {
         return (0, responses_1.failure)({ res, message: error });

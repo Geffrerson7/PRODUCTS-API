@@ -10,7 +10,7 @@ const store = async (req, res) => {
     try {
         const data = req.body;
         const products = await datasource_1.default.product.create({ data });
-        return (0, responses_1.success)({ res, status: 201, data: products, message: "Category created" });
+        return (0, responses_1.success)({ res, status: 201, message: "Product created" });
     }
     catch (error) {
         return (0, responses_1.failure)({ res, message: error });

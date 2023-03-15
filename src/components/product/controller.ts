@@ -6,7 +6,7 @@ export const store = async (req: Request, res: Response): Promise<Response> => {
     try {
         const data = req.body;
         const products = await prisma.product.create({ data })
-        return success({ res, status: 201, data: products, message: "Category created" });
+        return success({ res, status: 201, message: "Product created" });
     } catch (error) {
         return failure({ res, message: error });
     }
