@@ -28,5 +28,6 @@ const Controller = __importStar(require("./controller"));
 const clientRouter = (0, express_1.Router)();
 clientRouter.post("/", Controller.store);
 clientRouter.get("/", Controller.findAll);
+clientRouter.get("/:id", Controller.findOne);
 exports.default = clientRouter;
 //# sourceMappingURL=index.js.map

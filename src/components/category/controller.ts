@@ -22,3 +22,16 @@ export const findAll = async (_req: Request, res: Response): Promise<Response> =
     }
 
 }
+
+export const findOne = async (
+    req: Request,
+    res: Response
+): Promise<Response> => {
+    try {
+        const id = Number(req.params.id)
+        const category = await prisma.category.findUnique({ where: { id }, include: { products: true } });
+        return success({ res, data: category ?? "Category not found" });
+    } catch (error) {
+        return failure({ res, message: error });
+    }
+}
