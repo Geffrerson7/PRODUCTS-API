@@ -30,12 +30,6 @@ Install dependencies
   npm install
 ```
 
-Install dist directory
-
-```bash
-  npx tsc
-```
-
 Make migrations
 
 ```bash
