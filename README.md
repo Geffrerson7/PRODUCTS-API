@@ -49,7 +49,9 @@ Run project
 ```
 
 ## API Documentation
-[Postman documentation link](https://documenter.getpostman.com/view/24256278/2s93JwN22G) 
+
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white)](https://documenter.getpostman.com/view/24256278/2s93JwN22G)
+
 
 ## Authors
 

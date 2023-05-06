@@ -150,4 +150,6 @@ package-lock.json
 /prisma/*.db-journal
 #prisma/migrations
 prisma/migrations
+#Dist directory
+dist/
 # End of https://www.toptal.com/developers/gitignore/api/node
